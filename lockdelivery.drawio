@@ -1,0 +1,75 @@
+<mxfile host="app.diagrams.net" modified="2024-04-01T11:42:00.867Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/123.0.0.0 Safari/537.36" version="24.2.1" etag="DQKdJtPhi9yLPNWvnOM_" type="github">
+  <diagram name="Página-1" id="UvlTrTqpwifR-T7z9jxH">
+    <mxGraphModel>
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="2" value="Cuando acaba un proceso que inicia una de estas request" style="whiteSpace=wrap;strokeWidth=2;verticalAlign=top;" vertex="1" parent="1">
+          <mxGeometry x="35" y="454" width="411" height="196" as="geometry" />
+        </mxCell>
+        <mxCell id="3" value="Servicio" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="76" y="535" width="72" height="34" as="geometry" />
+        </mxCell>
+        <mxCell id="4" value="Procesar Cola" style="rhombus;strokeWidth=2;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="258" y="479" width="146" height="146" as="geometry" />
+        </mxCell>
+        <mxCell id="5" value="Proceso en el cual 2 peticiones http distintas alimentan una cola de mensajeria" style="whiteSpace=wrap;strokeWidth=2;verticalAlign=top;" vertex="1" parent="1">
+          <mxGeometry x="-19" width="571" height="404" as="geometry" />
+        </mxCell>
+        <mxCell id="6" value="Inicio" style="rounded=1;absoluteArcSize=1;arcSize=14;whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="305" y="25" width="54" height="34" as="geometry" />
+        </mxCell>
+        <mxCell id="7" value="Petición HTTP 1" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="151" y="109" width="128" height="34" as="geometry" />
+        </mxCell>
+        <mxCell id="8" value="Petición HTTP 2" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="357" y="109" width="128" height="34" as="geometry" />
+        </mxCell>
+        <mxCell id="9" value="Cola de Mensajería" style="rhombus;strokeWidth=2;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="239" y="193" width="186" height="186" as="geometry" />
+        </mxCell>
+        <mxCell id="10" value="Fin de proceso" style="rhombus;strokeWidth=2;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="35" y="209" width="154" height="154" as="geometry" />
+        </mxCell>
+        <mxCell id="11" value="" style="curved=1;startArrow=none;endArrow=block;exitX=-0.00875289351851852;exitY=0.7882131547423727;entryX=0.503173828125;entryY=0;" edge="1" parent="1" source="6" target="7">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="215" y="84" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="12" value="" style="curved=1;startArrow=none;endArrow=block;exitX=0.9957320601851852;exitY=0.875740254920859;entryX=0.49853515625;entryY=0;" edge="1" parent="1" source="6" target="8">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="421" y="84" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="13" value="" style="curved=1;startArrow=none;endArrow=block;exitX=0.503173828125;exitY=1;entryX=0.005760169725061754;entryY=0;" edge="1" parent="1" source="7" target="9">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="215" y="168" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="14" value="" style="curved=1;startArrow=none;endArrow=block;exitX=0.49853515625;exitY=1;entryX=0.8757688098960951;entryY=0;" edge="1" parent="1" source="8" target="9">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="421" y="168" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="15" value="" style="curved=1;startArrow=none;endArrow=block;exitX=0.4994419642857143;exitY=0.9982751623376623;entryX=0.4988064236111111;entryY=-0.004365808823529412;" edge="1" parent="1" source="10" target="3">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="16" value="" style="curved=1;startArrow=none;endArrow=block;exitX=0.49810987903225806;exitY=0.998067876344086;entryX=0.504441352739726;entryY=-0.002461472602739726;" edge="1" parent="1" source="9" target="4">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points" />
+          </mxGeometry>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
