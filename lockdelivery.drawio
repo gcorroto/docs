@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2024-04-01T11:56:22.249Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/123.0.0.0 Safari/537.36" etag="0BxR3QZGnZcv_UtllGIE" version="24.2.1" type="github">
+<mxfile host="app.diagrams.net" modified="2024-04-01T11:59:00.501Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/123.0.0.0 Safari/537.36" etag="uEdvm5O2gHy38fBD7Lr0" version="24.2.1" type="github">
   <diagram name="Página-1" id="UvlTrTqpwifR-T7z9jxH">
-    <mxGraphModel dx="3214" dy="2536" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="3214" dy="2592" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -53,6 +53,11 @@
             <Array as="points" />
           </mxGeometry>
         </mxCell>
+        <mxCell id="wovZupBcEu6LegMftBmv-55" value="POST" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="16">
+          <mxGeometry x="-0.0232" y="1" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
         <mxCell id="wovZupBcEu6LegMftBmv-16" value="BATCH-ENVIO-COMUNICACIONES" style="whiteSpace=wrap;strokeWidth=2;verticalAlign=top;" vertex="1" parent="1">
           <mxGeometry x="-760" y="-1100" width="571" height="404" as="geometry" />
         </mxCell>
@@ -65,16 +70,26 @@
         <mxCell id="wovZupBcEu6LegMftBmv-52" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="wovZupBcEu6LegMftBmv-18" target="7">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
+        <mxCell id="wovZupBcEu6LegMftBmv-53" value="SOLICITUD&amp;nbsp;&lt;div&gt;ENVIO&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="wovZupBcEu6LegMftBmv-52">
+          <mxGeometry x="-0.026" y="1" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
         <mxCell id="wovZupBcEu6LegMftBmv-18" value="Procesado comunicación de manera individual" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
           <mxGeometry x="-590" y="-991" width="128" height="62" as="geometry" />
         </mxCell>
         <mxCell id="wovZupBcEu6LegMftBmv-35" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="wovZupBcEu6LegMftBmv-20" target="wovZupBcEu6LegMftBmv-29">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
+        <mxCell id="wovZupBcEu6LegMftBmv-54" value="PATCH" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="wovZupBcEu6LegMftBmv-35">
+          <mxGeometry x="-0.021" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
         <mxCell id="wovZupBcEu6LegMftBmv-20" value="Elaboramos PATH comunicacion" style="rhombus;strokeWidth=2;whiteSpace=wrap;" vertex="1" parent="1">
           <mxGeometry x="-411" y="-923" width="186" height="186" as="geometry" />
         </mxCell>
-        <mxCell id="wovZupBcEu6LegMftBmv-36" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.75;entryDx=0;entryDy=0;" edge="1" parent="1" source="wovZupBcEu6LegMftBmv-21" target="2">
+        <mxCell id="wovZupBcEu6LegMftBmv-36" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="wovZupBcEu6LegMftBmv-21" target="wovZupBcEu6LegMftBmv-37">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="wovZupBcEu6LegMftBmv-46" value="SE NOTIFICA&amp;nbsp;&lt;div&gt;EL BATCH&amp;nbsp;&lt;/div&gt;&lt;div&gt;HA ACABADO&lt;/div&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="wovZupBcEu6LegMftBmv-36">
