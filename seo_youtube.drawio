@@ -1,0 +1,61 @@
+<mxfile host="app.diagrams.net" modified="2024-04-26T15:38:11.747Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36" version="24.3.0" etag="ac2ucGnj0Dd8syD3BByq" type="github">
+  <diagram name="Página-1" id="Xg9shsJ6zgkdwASZ41o9">
+    <mxGraphModel>
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="2" value="SEO para YouTube" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="476" width="142" height="34" as="geometry" />
+        </mxCell>
+        <mxCell id="3" value="Keyword Research" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry y="84" width="145" height="34" as="geometry" />
+        </mxCell>
+        <mxCell id="4" value="Optimización de Títulos" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="195" y="84" width="185" height="34" as="geometry" />
+        </mxCell>
+        <mxCell id="5" value="Optimización de Descripciones" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="430" y="84" width="234" height="34" as="geometry" />
+        </mxCell>
+        <mxCell id="6" value="Optimización de Etiquetas" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="714" y="84" width="204" height="34" as="geometry" />
+        </mxCell>
+        <mxCell id="7" value="Optimización de Palabras Clave" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="968" y="84" width="241" height="34" as="geometry" />
+        </mxCell>
+        <mxCell id="8" value="" style="curved=1;startArrow=none;endArrow=block;exitX=0.0007622409874284772;exitY=0.6862530668177668;entryX=0.5000167846679687;entryY=0.0026737661922679227;" edge="1" parent="1" source="2" target="3">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="73" y="59" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="9" value="" style="curved=1;startArrow=none;endArrow=block;exitX=0.0007622409874284772;exitY=0.83940298258179;entryX=0.49994952227618245;entryY=0.0026737661922679227;" edge="1" parent="1" source="2" target="4">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="287" y="59" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="10" value="" style="curved=1;startArrow=none;endArrow=block;exitX=0.5005043996891505;exitY=1.002673766192268;entryX=0.5003060887002537;entryY=0.0026737661922679227;" edge="1" parent="1" source="2" target="5">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="11" value="" style="curved=1;startArrow=none;endArrow=block;exitX=1.0002465583908726;exitY=0.8276707197369063;entryX=0.4999263239841835;entryY=0.0026737661922679227;" edge="1" parent="1" source="2" target="6">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="816" y="59" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="12" value="" style="curved=1;startArrow=none;endArrow=block;exitX=1.0002465583908726;exitY=0.663522271113776;entryX=0.4985609568995559;entryY=0.0026737661922679227;" edge="1" parent="1" source="2" target="7">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="1088" y="59" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
